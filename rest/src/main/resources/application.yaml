@@ -1,0 +1,14 @@
+sajt:
+  commandprocessor:
+    default:
+      name: no-op-command-processor
+  worldclock:
+    period: 1000
+    initial-delay: 0
+
+management:
+  endpoints:
+    web:
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
